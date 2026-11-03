@@ -696,7 +696,8 @@ function CarMeta({ c }: { c: (typeof cars)[number] }) {
 }
 
 function Explore() {
-  const [main, ...rest] = cars;
+  const main = cars[0]!;
+  const rest = cars.slice(1);
   return (
     <section id="autos" className="bg-surface py-24">
       <div className="mx-auto max-w-7xl px-5">
