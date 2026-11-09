@@ -4,7 +4,7 @@ export default defineConfig({
   cloudflare: false,
 
   vite: {
-    base: "/Mensualidades-Pagos/",
+    base: "/mensualidades-pagos/",
   },
 
   tanstackStart: {
